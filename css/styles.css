@@ -14,12 +14,54 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* ---------- Section Services -----  Gifts for all Occasions --------- */
+
+.title-blog {
+  font-family: "Gilroy";
+  font-size: 32px;
+  line-height: 1.19;
+  text-align: center;
+  color: #000000;
+}
+
+.text-blog {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+}
+
+.list-blog {
+}
+
+.card-blog {
+}
+.name-blog {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.more-link {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.36;
+  color: #000000;
+}
+
 /* Футер */
 
 .list {
   list-style: none;
   display: flex;
   padding: 0;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .footer {
