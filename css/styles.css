@@ -1,0 +1,96 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Футер */
+
+.list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.footer {
+  background-color: #fafafa;
+  padding: 120px 410px 35px 410px;
+}
+
+.footer-list {
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin-bottom: 100px;
+}
+
+.footer-nav {
+  font-weight: 700;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+  color: #f7941e;
+}
+
+.footer-logo {
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 39px;
+  color: #f7941e;
+  text-decoration: none;
+}
+
+.sm-list {
+  margin-bottom: 70px;
+  justify-content: center;
+}
+.sm-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.sm-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.sm-link:hover,
+.sm-link:focus {
+  background-color: #f7941e;
+}
+
+.copy-box {
+  display: flex;
+  justify-content: center;
+}
+
+.copy {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.copy-list:not(:last-child) {
+  margin-right: 14px;
+}
