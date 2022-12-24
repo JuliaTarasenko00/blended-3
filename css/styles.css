@@ -13,6 +13,33 @@ ul {
 body {
   font-family: Arial, sans-serif;
 }
+/* -------------logo----------------- */
+.logo {
+background: #FAFAFA;
+}
+.logo-link {
+font-family: 'Homemade Apple';
+font-size: 18px;
+line-height: 2.16;
+text-align: center;
+}
+.header-link{ 
+font-size: 18px;
+line-height: 1.22;
+color: #000000;
+}
+.btn {
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+text-transform: uppercase;
+color: #F7941E;
+cursor: pointer;
+border-color: transparent;
+border: 1px solid #F7941E;
+border-radius: 5px;
+
+}
 
 /* ---------- Section Services -----  Gifts for all Occasions --------- */
 
