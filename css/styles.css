@@ -89,6 +89,38 @@ margin-right: 30px;
 
 }
 
+/*-------------HERO-----------------*/
+
+.hero {
+  background-color: #F1F1F2;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-content-box {
+  max-width: 433px;
+}
+.hero-title {
+  font-size: 56px;
+line-height: 69px;
+margin-bottom: 36px;
+}
+.hero-text {
+  font-size: 20px;
+line-height: 1.4;
+margin-bottom: 60px;
+}
+
 /* ---------- Section Services -----  Gifts for all Occasions --------- */
 
 .title-blog {
