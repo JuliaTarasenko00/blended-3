@@ -1,32 +1,74 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
+h6 {
+  margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+width: 1470px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* -------------logo----------------- */
 .logo {
 background: #FAFAFA;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .logo-link {
 font-family: 'Homemade Apple';
 font-size: 18px;
 line-height: 2.16;
 text-align: center;
+margin-right: 433px;
+margin-left: 80px;
+}
+.header {
+  display: flex;
+  gap: 31px;
 }
 .header-link{ 
+  display: block;
 font-size: 18px;
 line-height: 1.22;
 color: #000000;
+padding-top: 47px;
+padding-bottom: 47px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .btn {
 font-size: 18px;
@@ -38,6 +80,8 @@ cursor: pointer;
 border-color: transparent;
 border: 1px solid #F7941E;
 border-radius: 5px;
+margin-left: auto;
+margin-right: 30px;
 
 }
 
@@ -59,11 +103,7 @@ border-radius: 5px;
   color: #000000;
 }
 
-.list-blog {
-}
 
-.card-blog {
-}
 .name-blog {
   font-family: "Gilroy";
   font-size: 20px;
@@ -87,7 +127,6 @@ border-radius: 5px;
 }
 
 .link {
-  display: inline-block;
   text-decoration: none;
 }
 
