@@ -38,10 +38,12 @@ margin: 0 auto;
 body {
   font-family: "Roboto", sans-serif;
 }
+
 /* -------------logo----------------- */
 .logo {
-background: #FAFAFA;
+  background: #FAFAFA;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -70,6 +72,8 @@ padding-bottom: 47px;
   display: flex;
   align-items: center;
 }
+
+
 .btn {
 font-size: 18px;
 line-height: 1.22;
@@ -117,6 +121,46 @@ margin-right: 30px;
   line-height: 1.36;
   color: #000000;
 }
+
+/* -------Section Ready to get started------ */
+.princess {
+  background: #F7941E;
+}
+
+.princess-title {
+  font-family: 'Gilroy';
+  font-size: 32px;
+  line-height: 1.4;
+
+  color: #000000;
+}
+
+.princess-text {
+  font-family: 'Gilroy';
+  font-size: 32px;
+  line-height: 1.4;
+
+
+  color: #000000;
+}
+
+.princess-btn {
+  background: #231F20;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #FFFFFF;
+}
+
+.princess-about {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.33;
+
+  color: #000000;
+}
+
 
 /* Футер */
 
@@ -169,6 +213,7 @@ margin-right: 30px;
   margin-bottom: 70px;
   justify-content: center;
 }
+
 .sm-item:not(:last-child) {
   margin-right: 24px;
 }
