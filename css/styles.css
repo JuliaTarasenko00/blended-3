@@ -13,31 +13,35 @@ ul {
 body {
   font-family: Arial, sans-serif;
 }
+
 /* -------------logo----------------- */
 .logo {
-background: #FAFAFA;
+  background: #FAFAFA;
 }
+
 .logo-link {
-font-family: 'Homemade Apple';
-font-size: 18px;
-line-height: 2.16;
-text-align: center;
+  font-family: 'Homemade Apple';
+  font-size: 18px;
+  line-height: 2.16;
+  text-align: center;
 }
-.header-link{ 
-font-size: 18px;
-line-height: 1.22;
-color: #000000;
+
+.header-link {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
 }
+
 .btn {
-font-size: 18px;
-line-height: 1.22;
-text-align: center;
-text-transform: uppercase;
-color: #F7941E;
-cursor: pointer;
-border-color: transparent;
-border: 1px solid #F7941E;
-border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F7941E;
+  cursor: pointer;
+  border-color: transparent;
+  border: 1px solid #F7941E;
+  border-radius: 5px;
 
 }
 
@@ -59,11 +63,10 @@ border-radius: 5px;
   color: #000000;
 }
 
-.list-blog {
-}
+.list-blog {}
 
-.card-blog {
-}
+.card-blog {}
+
 .name-blog {
   font-family: "Gilroy";
   font-size: 20px;
@@ -77,6 +80,46 @@ border-radius: 5px;
   line-height: 1.36;
   color: #000000;
 }
+
+/* -------Section Ready to get started------ */
+.princess {
+  background: #F7941E;
+}
+
+.princess-title {
+  font-family: 'Gilroy';
+  font-size: 32px;
+  line-height: 1.4;
+
+  color: #000000;
+}
+
+.princess-text {
+  font-family: 'Gilroy';
+  font-size: 32px;
+  line-height: 1.4;
+
+
+  color: #000000;
+}
+
+.princess-btn {
+  background: #231F20;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #FFFFFF;
+}
+
+.princess-about {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.33;
+
+  color: #000000;
+}
+
 
 /* Футер */
 
@@ -130,6 +173,7 @@ border-radius: 5px;
   margin-bottom: 70px;
   justify-content: center;
 }
+
 .sm-item:not(:last-child) {
   margin-right: 24px;
 }
