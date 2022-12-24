@@ -30,10 +30,10 @@ img {
   height: auto;
 }
 .container {
-width: 1470px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
+  width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -41,7 +41,7 @@ body {
 
 /* -------------logo----------------- */
 .logo {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 .header-nav {
@@ -49,50 +49,48 @@ body {
   align-items: center;
 }
 .logo-link {
-font-family: 'Homemade Apple';
-font-size: 18px;
-line-height: 2.16;
-text-align: center;
-margin-right: 433px;
-margin-left: 80px;
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  line-height: 2.16;
+  text-align: center;
+  margin-right: 433px;
+  margin-left: 80px;
 }
 .header {
   display: flex;
   gap: 31px;
 }
-.header-link{ 
+.header-link {
   display: block;
-font-size: 18px;
-line-height: 1.22;
-color: #000000;
-padding-top: 47px;
-padding-bottom: 47px;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 .header-container {
   display: flex;
   align-items: center;
 }
 
-
 .btn {
-font-size: 18px;
-line-height: 1.22;
-text-align: center;
-text-transform: uppercase;
-color: #F7941E;
-cursor: pointer;
-border-color: transparent;
-border: 1px solid #F7941E;
-border-radius: 5px;
-margin-left: auto;
-margin-right: 30px;
-
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f7941e;
+  cursor: pointer;
+  border-color: transparent;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 30px;
 }
 
 /*-------------HERO-----------------*/
 
 .hero {
-  background-color: #F1F1F2;
+  background-color: #f1f1f2;
 }
 
 .hero-container {
@@ -104,7 +102,6 @@ margin-right: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .hero-content-box {
@@ -112,18 +109,40 @@ margin-right: 30px;
 }
 .hero-title {
   font-size: 56px;
-line-height: 69px;
-margin-bottom: 36px;
+  line-height: 69px;
+  margin-bottom: 36px;
 }
 .hero-text {
   font-size: 20px;
-line-height: 1.4;
-margin-bottom: 60px;
+  line-height: 1.4;
+  margin-bottom: 60px;
 }
 
 /* ---------- Section Services -----  Gifts for all Occasions --------- */
+.container-second {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.gifts {
+  background-color: #fff;
+  padding-top: 96px;
+  padding-bottom: 137px;
+}
+.list-blog {
+  display: flex;
+  gap: 30px;
+}
+.card-blog {
+  background-color: #FAFAFA;
+}
+.card-blog-text {
+  padding: 24px;
+}
 
 .title-blog {
+  margin-bottom: 23px;
   font-family: "Gilroy";
   font-size: 32px;
   line-height: 1.19;
@@ -132,6 +151,7 @@ margin-bottom: 60px;
 }
 
 .text-blog {
+  margin-bottom: 64px;
   font-family: "Gilroy";
   font-size: 18px;
   line-height: 135.94%;
@@ -139,8 +159,8 @@ margin-bottom: 60px;
   color: #000000;
 }
 
-
 .name-blog {
+  margin-bottom: 74px;
   font-family: "Gilroy";
   font-size: 20px;
   line-height: 1.2;
@@ -156,11 +176,11 @@ margin-bottom: 60px;
 
 /* -------Section Ready to get started------ */
 .princess {
-  background: #F7941E;
+  background: #f7941e;
 }
 
 .princess-title {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-size: 32px;
   line-height: 1.4;
 
@@ -168,37 +188,34 @@ margin-bottom: 60px;
 }
 
 .princess-text {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-size: 32px;
   line-height: 1.4;
-
 
   color: #000000;
 }
 
 .princess-btn {
-  background: #231F20;
-  font-family: 'Gilroy';
+  background: #231f20;
+  font-family: "Gilroy";
   font-size: 18px;
   line-height: 1.22;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .princess-about {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   font-size: 18px;
   line-height: 1.33;
 
   color: #000000;
 }
 
-
 /* Футер */
 
 .list {
   list-style: none;
-  display: flex;
   padding: 0;
 }
 
